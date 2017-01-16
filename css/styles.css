@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 332px;
+    background: #eef5f1;
+    border-radius: 5px;
+    box-shadow: 6px 6px 2px #e9e9e9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card,
+.card__info {
+    padding: 15px;
+}
+
+.card,
+.card__img,
+.card__info {
+    border: 1px solid #92c38a;
+}
+
+.card__title {
+    margin-top: 0;
+    border-bottom: 2px solid #92c38a;
+}
+
+.card__title,
+.card__fact,
+.card__item {
+    color: #1f7910;
+}
+
+.card__img {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.card__img,
+.card__info {
+    border-radius: 3px;
+}
+
+.card__info {
+    background: #fff;
+}
+
+.card__fact {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.card__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card__item {
+    font-weight: bold;
+}
+
+.card__desc {
+    margin-bottom: 0;
+}
